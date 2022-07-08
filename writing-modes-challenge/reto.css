@@ -1,0 +1,95 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card__header {
+    background: lightblue;
+    padding: 10px;
+}
+.card__main {
+    background: rgb(202, 134, 219);
+    padding: 10px;
+}
+.card {
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: vertical-rl;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card_2 {
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: ltr;
+    writing-mode: vertical-lr;
+    padding: 10px;
+}
+.card_3 {
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: horizontal-tb;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.card_4 {
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: sideways-rl;
+    padding: 10px;
+}
+.card_5 {
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rlt;
+    writing-mode: sideways-lr;
+    padding: 10px;
+}
+.card_6 {
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rlt;
+    writing-mode: vertical-rl;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card_7 {
+    background: #ffdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: sideways-lr;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+    
+}
+
