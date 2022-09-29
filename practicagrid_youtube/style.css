@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 400px; /* crea las columnas, el ancho de las columnas*/
+    grid-template-rows: auto /* primera fila*/ 200px; /* segunda fila*/ /*-*/ /* el alto de las filas*/
+    column-gap: 2em; /* aplica espaciado solo a las columnas*/
+    row-gap: 2em; /* aplica espaciado a las filas*/
+    /* gap: 2em; se aplica tanto a filas como a columnas*/
+}
+.grid div {
+    background: #ecf0f1;
+    padding: 1em;
+}
+.grid div:hover {
+    border: 1px solid yellow;
+}
+/* segunda grid */
+.grid2 {
+    margin-top: 20px;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr; /* el fr hace que las columnas tratan de abarcar toda la pantalla*/
+    grid-template-columns: repeat(4, 1fr); /* recibe 2 parametros, número de veces que se repite la columna y el valor*/
+    gap: 1em;
+    grid-template-rows: auto auto;
+}
+.grid2 .div2 {
+    background: #ecf0f1;
+    padding: 1em;
+}
+.grid2 .div2:hover {
+    border: 1px solid yellow;
+}
